@@ -1,9 +1,13 @@
- float Distance;
+//Variables (DON'T PUT IN START OR UPDATE)
+float Distance;
  public float DetectionRadius;
  public GameObject Gameobject; 
+ public GameObject Player;
 
+//Put in Update
 Distance = Vector3.Distance(Player.transform.position, GameObject.transform.position);  
 
+// put functions in here
 if(Distance <= DetectionRadius)
 {
     
