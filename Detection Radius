@@ -1,4 +1,4 @@
- public float Distance;
+ float Distance;
  public float DetectionRadius
  public GameObject Gameobject; 
 
