@@ -1,5 +1,5 @@
  float Distance;
- public float DetectionRadius
+ public float DetectionRadius;
  public GameObject Gameobject; 
 
 Distance = Vector3.Distance(Player.transform.position, GameObject.transform.position);  
