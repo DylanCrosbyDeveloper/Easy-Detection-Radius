@@ -5,7 +5,7 @@ float Distance;
  public GameObject Player;
 
 //Put in Update
-Distance = Vector3.Distance(Player.transform.position, GameObject.transform.position);  
+float Distance = Vector3.Distance(Player.transform.position, GameObject.transform.position);  
 
 // put functions in here
 if(Distance <= DetectionRadius)
